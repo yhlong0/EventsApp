@@ -3,6 +3,7 @@
 eventsApp.controller('EventController', 
 	function EventController($scope){
 		
+		$scope.sortorder = 'name';
 		$scope.event = {
 			name: 'Angular Boot Camp',
 			date: '1/1/2013',
@@ -26,7 +27,7 @@ eventsApp.controller('EventController',
 					name: 'Scope for fun',
 					creatorName: 'John Smith',
 					duration: '30 mins',
-					level: 'Advanced',
+					level: 'Intermediate',
 					abstract: 'In this session you will balabala',
 					upVoteCount: 0
 				},
@@ -34,7 +35,7 @@ eventsApp.controller('EventController',
 					name: 'Well behave controller',
 					creatorName: 'test',
 					duration: '2 hours',
-					level: 'Advanced',
+					level: 'Introductory',
 					abstract: 'In this session you will balabala',
 					upVoteCount: 0
 				}
