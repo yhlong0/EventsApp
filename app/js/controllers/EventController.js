@@ -18,7 +18,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'Directive Masterclass',
 					creatorName: 'Hailong Yang',
-					duration: '1 hr',
+					duration: 1,
 					level: 'Advanced',
 					abstract: 'In this session you will balabala',
 					upVoteCount: 0
@@ -26,7 +26,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'Scope for fun',
 					creatorName: 'John Smith',
-					duration: '30 mins',
+					duration: 2,
 					level: 'Intermediate',
 					abstract: 'In this session you will balabala',
 					upVoteCount: 0
@@ -34,7 +34,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'Well behave controller',
 					creatorName: 'test',
-					duration: '2 hours',
+					duration: 4,
 					level: 'Introductory',
 					abstract: 'In this session you will balabala',
 					upVoteCount: 0
